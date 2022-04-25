@@ -1,0 +1,28 @@
+// GERAL
+//--------------------------------------
+
+.main-container {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    padding: 18px;
+}
+
+.columns {
+    flex-direction: column;
+}
+
+.align {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.secondary-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    height: fit-content;
+}
+
+//TITULOS EN CONTENIDO
