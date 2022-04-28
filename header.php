@@ -14,3 +14,4 @@
     <!-- Wordpress head function -->
     <?php wp_head(); ?> <!--main css, bootstrap -->
 </head>
+<body style="background-image: url('<?php echo get_theme_file_uri() . '/assets/img/1.png' ; ?>')">

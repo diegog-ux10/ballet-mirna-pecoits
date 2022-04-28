@@ -12,6 +12,8 @@
 
 // ESTILOS COMPONENTES (gerados arquivos separados)
 //------------------------------------
+
+@import 'components/pages-header';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/btn';
@@ -22,3 +24,4 @@
 @import 'pages/home';
 @import 'pages/about';
 @import 'pages/contact';
+@import 'pages/linha-do-tempo';

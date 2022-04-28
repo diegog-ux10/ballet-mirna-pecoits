@@ -1,0 +1,16 @@
+div.page-header-container {
+    height: 180px;
+    padding-bottom: 5px;
+    position: relative;
+    
+}
+
+div.page-header-container::before {
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 4px solid $color-pink ;
+}
