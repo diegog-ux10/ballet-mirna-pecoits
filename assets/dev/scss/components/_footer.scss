@@ -1,2 +1,18 @@
 // FOOTER
 //--------------------------------------
+
+footer {
+    background-color: $color-azul;
+    height: 60px;
+    border-bottom: 5px solid $color-pink-two;
+
+    div.footer {
+        justify-content: space-between;
+        span {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            gap: 8px;
+        }
+    }
+}

@@ -21,3 +21,35 @@ main {
         }
     }
 }
+
+section.ballet {
+    div.ballet-container {
+        p.tex-width-one{
+            width: 80%;
+        }
+        h3.text-width-two, h4.text-width-two, p.text-width-two {
+            width: 45%;
+        }
+    }
+}
+
+section.cia {
+    height: 860px;
+    div.cia-container {
+        height: inherit;
+        position: relative;
+
+        p.text-width {
+            width: 50%;
+        }
+
+        img.fotos {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;           
+        }
+
+    }
+}
