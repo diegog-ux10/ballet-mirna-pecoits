@@ -2,9 +2,44 @@
 //--------------------------------------
 
 header {
+    position: absolute;
+    top: 50px;
     div {
-        img {
-            width: ;
+        display: flex;
+        justify-content: space-between;
+
+        img.logo {
+            width: 272px;
+            height: 75px;
+        }
+
+        img.anos {
+            height: 75px;
+            width: auto;
+        }
+
+        .menu {
+            ul {
+                display: flex;
+                align-content: center;
+                list-style: none;
+                gap: 20px;
+                li {
+                    a {
+                        text-decoration: none;
+                        font-size: $regular;
+                        color: $color-azul;
+                    }
+
+                    a:hover {
+                        font-weight: $bold;
+                    }
+                }
+
+                li:hover {
+                    border-bottom: 3px solid $color-pink;
+                }
+            }
         }
     }
 }

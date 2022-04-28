@@ -1,2 +1,23 @@
 // SLIDER PAGE HOME
 //--------------------------------------
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    div.secondary-container {
+        div.main-text {
+            width: 50%;
+            h1 {
+              font-size: $titulo;
+              font-weight: $bold;
+              color: $color-azul;
+            }
+
+            
+        }
+    }
+}
